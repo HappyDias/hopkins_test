@@ -4,6 +4,8 @@ This project creates a simple weather app to check temperature and wind speeds f
 
 While for the most part I was able to work with the editor provided, I unfortunately got stuck when it was time to proxy the open weather app api server, since glitch.com was provided with an invalid server header error when I produced the proxy. Thus to access the api a change to this repo was needed and unfortunately for the user to view this app they should follow the instructions bellow.
 
+Another in my opinion important issue of note is the OpenWeather API that was requested to be used. Most of the [tiers offered](https://openweathermap.org/price) are payed ones and thus I ended up using the sample values provided, which only provide hourly values from March 27, 2019. Only at the end I noticed the [5 days/3 hour forecast API](https://openweathermap.org/forecast5) which was indeed free, however, would require a moderate change to the application, which could easily be done on request.
+
 Of note before following the below instructions, the user must first make sure to `npm install` or `yarn install` to ensure the most up to date packages are being used. Specifically [material ui](https://material-ui.com/) and [react-weather-icons](https://github.com/williamsb/react-weather-icons) are dependencies that must be installed.
 
 Feel free to comment on this repository or provide more information via email to [amcbd89@gmail.com](mailto://amcbd89@gmail.com)
