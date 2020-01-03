@@ -1,12 +1,16 @@
-#Specific comments by A. Dias
+##Specific comments by A. Dias
 
-Hello
+This project creates a simple weather app to check temperature and wind speeds for the day and others at an hourly rate using [Open Weather Map](https://openweathermap.org/). It was created following the requirements requested on the README file in the [glitch.com project](https://glitch.com/edit/#!/join/87a60099-ec88-4f85-868b-2701a4de0742).
 
-#Default instructions
+While for the most part I was able to work with the editor provided, I unfortunately got stuck when it was time to proxy the open weather app api server, since glitch.com was provided with an invalid server header error when I produced the proxy. Thus to access the api a change to this repo was needed and unfortunately for the user to view this app they should follow the instructions bellow.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Of note before following the below instructions, the user must first make sure to `npm install` or `yarn install` to ensure the most up to date packages are being used. Specifically [material ui](https://material-ui.com/) and [react-weather-icons](https://github.com/williamsb/react-weather-icons) are dependencies that must be installed.
+
+Feel free to comment on this repository or provide more information via email to [amcbd89@gmail.com](mailto://amcbd89@gmail.com)
 
 ## Available Scripts
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 In the project directory, you can run:
 
