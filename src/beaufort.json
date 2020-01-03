@@ -1,0 +1,15 @@
+{
+	"Calm" : [0, 0.5],
+	"Light air" : [0.5, 1.5],
+	"Light breeze" : [1.5, 3.3],
+	"Gentle breeze" : [3.3, 5.5],
+	"Moderate breeze" : [5.5, 7.9],
+	"Fresh breeze" : [7.9, 10.7],
+	"Strong breeze" : [10.7, 13.8],
+	"Moderate gale" : [13.8, 17.1],
+	"Gale" : [17.1, 20.7],
+	"Strong/severe gale" : [20.7, 24.4],
+	"Storm" : [24.4, 28.4],
+	"Violent storm" : [28.4, 32.6],
+	"Huricane force" : [32.7, 100000]
+}
